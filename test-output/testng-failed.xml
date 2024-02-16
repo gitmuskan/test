@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ TutorialsNinja Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" TutorialNinja Tests(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.login">
+        <methods>
+          <include name="verifyLoginWithInValidCred"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.login -->
+      <class name="com.tutorialsninja.qa.testcases.Register">
+        <methods>
+          <include name="verifyingWithoutFillingAllFields"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Register -->
+    </classes>
+  </test> <!--  TutorialNinja Tests(failed) -->
+</suite> <!-- Failed suite [ TutorialsNinja Automation Suite] -->

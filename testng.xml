@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" TutorialsNinja Automation Suite">
+    <test name=" TutorialNinja Tests">
+        <classes>
+            <class name="com.tutorialsninja.qa.testcases.login" />
+                       <class name="com.tutorialsninja.qa.testcases.Register" />
+                                   <class name="com.tutorialsninja.qa.testcases.Search" /> 
+        </classes>
+    </test> <!-- Test-->
+</suite> <!-- Suite-->
